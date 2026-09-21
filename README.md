@@ -14,7 +14,7 @@ As medições são realizadas a cada dois segundos e exibidas no monitor serial 
 
 | BMP180 | ESP32-S3 |
 |---|---|
-| VCC | 3V3 |
+| 3V3 | 3V3 |
 | GND | GND |
 | SDA | GPIO 9 |
 | SCL | GPIO 8 |

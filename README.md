@@ -71,23 +71,25 @@ O `sdkconfig` e o diretório `build/` são gerados localmente e não devem ser v
 
 ## Como compilar e executar
 
-Abra um terminal com o ambiente do ESP-IDF carregado e execute:
+Abra um terminal com o ambiente do ESP-IDF carregado e cheque:
+```bash
+$env:IDF_TARGET
+```
+
+Caso o target esteja em outro esp32 e não esp2s, execute:
+
+```bash
+Remove-Item Env:IDF_TARGET
+```
+depois:
 
 ```bash
 idf.py set-target esp32s3
-idf.py reconfigure
 idf.py build
 ```
 
-Para gravar o firmware e abrir o monitor serial:
+Por fim, abra diagram.json com suas configurações do wokwi.
 
-```bash
-idf.py -p PORT flash monitor
-```
-
-Substitua `PORT` pela porta serial da placa, por exemplo `COM3` no Windows ou `/dev/ttyUSB0` no Linux.
-
-Para sair do monitor serial, use `Ctrl+]`.
 
 ## Saída esperada
 

@@ -18,7 +18,7 @@ As medições são realizadas a cada dois segundos e exibidas no monitor serial 
 | SDA | GPIO 9 |
 | SCL | GPIO 8 |
 
-O circuito também está disponível no arquivo [`diagram.json`](diagram.json) para simulação no Wokwi.
+O circuito está disponível no arquivo [`diagram.json`](diagram.json) para simulação no Wokwi.
 
 ## Correção local do driver BMP180
 

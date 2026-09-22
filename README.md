@@ -8,7 +8,6 @@ As medições são realizadas a cada dois segundos e exibidas no monitor serial 
 
 - ESP32-S3 DevKitC-1
 - Sensor BMP180
-- Cabos para conexão I²C
 
 ## Ligações
 
